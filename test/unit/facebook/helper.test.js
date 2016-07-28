@@ -6,8 +6,8 @@ describe.skip('facebook-helper', () => {
   //let models = null;
 
   before((done) => {
-    let userId = "742593049095212";
-    let token = "EAACEdEose0cBAPZCVgowUe8pHaHgCcIZAEBauslr1nkvjGxHTnkUn4pKmaVVWJkIuzWgMZCRoWEoS6XNkQWZB9QmuYbaxi7H2iGZCVh2XDs6xUZCNf3mE0hYCWf6YYQXbFqfuiExnJP8POmw0x0UsA8W7MZCjAbsVkdZCZBonsZBXs2ZBAqgqJpfZBIm5SYgio1hEvsZD";
+    let userId = "";
+    let token = "";
     facebookHelper = new FacebookHelper({userId, token});
     console.log(facebookHelper);
     done();

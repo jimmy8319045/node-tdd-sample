@@ -8,8 +8,8 @@ describe.only('facebook', () => {
   let user = {};
 
  before( async function(done){
-    let userId = "742593049095212";
-    let token = "EAACEdEose0cBAAbNDJvMg9CvbInmC6PcXyhTIU8YSVNN3uSVrtqDyUQ27R8ey0XdFAz3FCBchzxXhOm2JxFizdzxz8XHVcpDwFZBqLtVOZBz8stZAMZCJxjfhxiP5Di7ilsADhXJtwBTMZAj1DuvF1NIeilRfWTcNrJvdyx4xsYQIcFhuJOWsrGX3BnjlFZC0ZD";
+    let userId = "";
+    let token = "";
     models = await task1_initModel();
     facebookHelper = new FacebookHelper({userId, token});
     //console.log(facebookHelper);
